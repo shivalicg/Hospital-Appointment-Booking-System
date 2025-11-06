@@ -3,15 +3,21 @@ node_modules/
 client/node_modules/
 server/node_modules/
 
-# Environment files
-.env
-server/.env
-client/.env
+# Vite cache
+.vite/
+client/.vite/
+server/.vite/
+client/node_modules/.vite/
 
 # Build outputs
 dist/
 client/dist/
 server/dist/
+
+# Environment files
+.env
+server/.env
+client/.env
 
 # Logs
 npm-debug.log*
